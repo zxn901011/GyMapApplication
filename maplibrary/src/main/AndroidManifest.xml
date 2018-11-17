@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.hisense.maplibrary">
+
+    <application>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="z3qcS1UtChah9OL5rrVCwQyez87aINAG">
+        </meta-data>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+        </service>
+
+        <activity android:name=".activity.MainActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.RouteActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>
